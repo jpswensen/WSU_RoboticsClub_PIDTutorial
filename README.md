@@ -1,7 +1,7 @@
 # WSU_RoboticsClub_PIDTutorial
 All the info you need to get ready for the robotics club tutorial
 
-## Installing Arduino software and PID packages
+## Installing Arduino software and PID packages (before tutorial)
 
 1. Download and install the Arduino IDE (I am using version 1.8.5)
 2. Install the Chipkit board package in the ArduinoIDE
@@ -13,13 +13,13 @@ All the info you need to get ready for the robotics club tutorial
    * Search for PID v1.2.1 by Brett Beauregard and install the library
    * Restart Arduino IDE
 
-## Setting up your Chipkit and motor shield
+## Setting up your Chipkit and motor shield (at the tutorial)
 1. If not already done, stack the Motor Shield on top of the Chipkit
 2. Ensure jumper JP5 is installed
 3. Install a jumper wire from +VM header pin to the +J14 header pin. (Ask for help if you can't find it)
 4. Plug the cable connecting the DC motor to the motor shield in header J3
 
-## Testing the example code that 
+## Testing the example code that (at the tutorial)
 1. Download the PIDFromQuadrature sketch from this repository
 2. Plug the chipkit into your computer via USB and set the correct serial port that appears (if you have never ins
    * If you have never used a USB->Serial device before, you may need to install drivers (see https://chipkit.net/wiki/index.php?title=ChipKIT_Drivers)
