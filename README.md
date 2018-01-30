@@ -1,8 +1,11 @@
 # WSU_RoboticsClub_PIDTutorial
 All the info you need to get ready for the robotics club tutorial
 
-## Installing Arduino software and PID packages (before tutorial)
+## Learning about PID and the Zeigler-Nichols method for tuning (before the tutorial)
+1. Read the PDF in this repository about PID and Zeigler Nichols
+2. Come ready to implement this tuning method on your motor.
 
+## Installing Arduino software and PID packages (before tutorial)
 1. Download and install the Arduino IDE (I am using version 1.8.5)
 2. Install the Chipkit board package in the ArduinoIDE
    * From the Arduino IDE, select Tools->Board->Board Manager
@@ -27,6 +30,3 @@ All the info you need to get ready for the robotics club tutorial
 4. Open the serial port in the ArduinoIDE. You should see an output showing the current position setpoint, the current reading input from the quadrature sensor, and the current output to the motor driver.
 5. You can send the character 'a' or 'z' to the chipkit to increase or decrease the setpoint
 
-## Learning about PID and the Zeigler-Nichols method for tuning
-1. Read the PDF in this repository about PID and Zeigler Nichols
-2. Come ready to implement this tuning method on your motor.
